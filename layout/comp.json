@@ -1,0 +1,142 @@
+[
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "barrel_shifter_8bit",
+      "barrel_shifter_8bit"
+   ],
+   "devices": [
+       [
+         ["NAND2X1", 24],
+         ["OAI21X1", 24],
+         ["INVX1", 24],
+         ["BUFX2", 8 ]
+       ], [
+         ["NAND2X1", 24 ],
+         ["OAI21X1", 24 ],
+         ["INVX1", 24 ],
+         ["BUFX2", 8 ]
+       ]
+   ],
+   "nets": [
+    93,
+    93
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "out[0]",
+        "out[1]",
+        "out[2]",
+        "out[3]",
+        "out[4]",
+        "out[5]",
+        "out[6]",
+        "out[7]",
+        "in[1]",
+        "in[0]",
+        "in[3]",
+        "in[2]",
+        "vdd",
+        "in[5]",
+        "in[4]",
+        "in[6]",
+        "in[7]",
+        "gnd",
+        "ctrl[2]",
+        "ctrl[1]",
+        "ctrl[0]"
+      ], [
+        "out[0]",
+        "out[1]",
+        "out[2]",
+        "out[3]",
+        "out[4]",
+        "out[5]",
+        "out[6]",
+        "out[7]",
+        "in[1]",
+        "in[0]",
+        "in[3]",
+        "in[2]",
+        "vdd",
+        "in[5]",
+        "in[4]",
+        "in[6]",
+        "in[7]",
+        "gnd",
+        "ctrl[2]",
+        "ctrl[1]",
+        "ctrl[0]"
+      ]
+   ]
+  }
+]

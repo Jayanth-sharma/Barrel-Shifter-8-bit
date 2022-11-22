@@ -1,0 +1,542 @@
+Qflow route logfile created on Sunday 20 November 2022 10:37:26 AM IST
+qrouter -noc  -s barrel_shifter_8bit.cfg
+Qrouter detail maze router version 1.4.59.T
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+LEF Read, Line 135: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 136: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 140: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 141: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 151: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 152: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 156: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 157: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 167: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 168: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 172: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 173: NOTE:  Old format VIARULE ignored.
+LEF file:  Defines site corner (ignored)
+LEF file:  Defines site IO (ignored)
+LEF file:  Defines site core (ignored)
+LEF read: Processed 3179 lines.
+LEF Read: encountered 0 errors and 12 warnings total.
+Vertical route layer at non-minimum pitch 3.2.  Using smaller pitch 1.6, will route on 1-of-2 tracks for layer metal4.
+Reading DEF data from file barrel_shifter_8bit.def.
+Diagnostic: Design name: "barrel_shifter_8bit"
+  Processed 3 vias total.
+  Processed 104 subcell instances total.
+  Processed 21 pins total.
+  Processed 92 nets total (0 fixed).
+  Processed 2 special nets total (3 fixed).
+DEF read: Processed 587 lines.
+Output scale = microns / 100, precision 1
+No antenna cell defined!
+There are 93 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net ctrl[2]
+Nets remaining: 92
+Finished routing net ctrl[1]
+Nets remaining: 91
+Finished routing net ctrl[0]
+Nets remaining: 90
+Finished routing net gnd
+Nets remaining: 89
+Finished routing net ins_16.out
+Nets remaining: 88
+Finished routing net in[7]
+Nets remaining: 87
+Finished routing net ins_17.out
+Nets remaining: 86
+Finished routing net ins_12.out
+Nets remaining: 85
+Finished routing net ins_13.out
+Nets remaining: 84
+Finished routing net ins_00.in1
+Nets remaining: 83
+Finished routing net ins_14.out
+Nets remaining: 82
+Finished routing net ins_01.in1
+Nets remaining: 81
+Finished routing net ins_15.out
+Nets remaining: 80
+Finished routing net ins_02.in1
+Nets remaining: 79
+Finished routing net ins_03.in1
+Nets remaining: 78
+Finished routing net ins_04.in1
+Nets remaining: 77
+Finished routing net ins_05.in1
+Nets remaining: 76
+Finished routing net ins_06.in1
+Nets remaining: 75
+Finished routing net in[4]
+Nets remaining: 74
+Finished routing net in[5]
+Nets remaining: 73
+Finished routing net in[6]
+Nets remaining: 72
+Finished routing net _28_
+Nets remaining: 71
+Finished routing net _29_
+Nets remaining: 70
+Finished routing net _30_
+Nets remaining: 69
+Finished routing net _31_
+Nets remaining: 68
+Finished routing net ins_10.out
+Nets remaining: 67
+Finished routing net _32_
+Nets remaining: 66
+Finished routing net _33_
+Nets remaining: 65
+Finished routing net ins_00.in0
+Nets remaining: 64
+Finished routing net ins_11.out
+Nets remaining: 63
+Finished routing net _34_
+Nets remaining: 62
+Finished routing net _35_
+Nets remaining: 61
+Finished routing net _36_
+Nets remaining: 60
+Finished routing net _37_
+Nets remaining: 59
+Finished routing net _38_
+Nets remaining: 58
+Finished routing net _39_
+Nets remaining: 57
+Finished routing net _40_
+Nets remaining: 56
+Finished routing net _41_
+Nets remaining: 55
+Finished routing net _42_
+Nets remaining: 54
+Finished routing net _43_
+Nets remaining: 53
+Finished routing net _44_
+Nets remaining: 52
+Finished routing net _45_
+Nets remaining: 51
+Finished routing net _46_
+Nets remaining: 50
+Finished routing net _47_
+Nets remaining: 49
+Finished routing net ins_00.out
+Nets remaining: 48
+Finished routing net out[0]
+Nets remaining: 47
+Finished routing net ins_01.out
+Nets remaining: 46
+Finished routing net out[1]
+Nets remaining: 45
+Finished routing net ins_02.out
+Nets remaining: 44
+Finished routing net out[2]
+Nets remaining: 43
+Finished routing net ins_03.out
+Nets remaining: 42
+Finished routing net out[3]
+Nets remaining: 41
+Finished routing net ins_04.out
+Nets remaining: 40
+Finished routing net out[4]
+Nets remaining: 39
+Finished routing net ins_05.out
+Nets remaining: 38
+Finished routing net out[5]
+Nets remaining: 37
+Finished routing net ins_06.out
+Nets remaining: 36
+Finished routing net out[6]
+Nets remaining: 35
+Finished routing net ins_07.out
+Nets remaining: 34
+Finished routing net out[7]
+Nets remaining: 33
+Finished routing net _0_
+Nets remaining: 32
+Finished routing net _1_
+Nets remaining: 31
+Finished routing net _2_
+Nets remaining: 30
+Finished routing net _3_
+Nets remaining: 29
+Finished routing net _4_
+Nets remaining: 28
+Finished routing net _5_
+Nets remaining: 27
+Finished routing net _6_
+Nets remaining: 26
+Finished routing net _7_
+Nets remaining: 25
+Finished routing net _8_
+Nets remaining: 24
+Finished routing net _9_
+Nets remaining: 23
+Finished routing net _10_
+Nets remaining: 22
+Finished routing net _11_
+Nets remaining: 21
+Finished routing net _12_
+Nets remaining: 20
+Finished routing net _13_
+Nets remaining: 19
+Finished routing net _14_
+Nets remaining: 18
+Finished routing net _15_
+Nets remaining: 17
+Finished routing net in[0]
+Nets remaining: 16
+Finished routing net _16_
+Nets remaining: 15
+Finished routing net _17_
+Nets remaining: 14
+Finished routing net in[1]
+Nets remaining: 13
+Finished routing net _18_
+Nets remaining: 12
+Finished routing net _19_
+Nets remaining: 11
+Finished routing net in[2]
+Nets remaining: 10
+Finished routing net _20_
+Nets remaining: 9
+Finished routing net _21_
+Nets remaining: 8
+Finished routing net in[3]
+Nets remaining: 7
+Finished routing net _22_
+Nets remaining: 6
+Finished routing net _23_
+Nets remaining: 5
+Finished routing net _24_
+Nets remaining: 4
+Finished routing net _25_
+Nets remaining: 3
+Finished routing net _26_
+Nets remaining: 2
+Finished routing net _27_
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 160
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net ctrl[2]
+Nets remaining: 92
+Finished routing net ctrl[1]
+Nets remaining: 91
+Finished routing net ctrl[0]
+Nets remaining: 90
+Keeping route for net gnd
+Finished routing net ins_16.out
+Nets remaining: 88
+Keeping route for net in[7]
+Finished routing net ins_17.out
+Nets remaining: 86
+Finished routing net ins_12.out
+Nets remaining: 85
+Finished routing net ins_13.out
+Nets remaining: 84
+Finished routing net ins_00.in1
+Nets remaining: 83
+Finished routing net ins_14.out
+Nets remaining: 82
+Finished routing net ins_01.in1
+Nets remaining: 81
+Finished routing net ins_15.out
+Nets remaining: 80
+Finished routing net ins_02.in1
+Nets remaining: 79
+Finished routing net ins_03.in1
+Nets remaining: 78
+Finished routing net ins_04.in1
+Nets remaining: 77
+Finished routing net ins_05.in1
+Nets remaining: 76
+Finished routing net ins_06.in1
+Nets remaining: 75
+Finished routing net in[4]
+Nets remaining: 74
+Finished routing net in[5]
+Nets remaining: 73
+Finished routing net in[6]
+Nets remaining: 72
+Keeping route for net _28_
+Finished routing net _29_
+Nets remaining: 70
+Keeping route for net _30_
+Finished routing net _31_
+Nets remaining: 68
+Keeping route for net ins_10.out
+Keeping route for net _32_
+Keeping route for net _33_
+Keeping route for net ins_00.in0
+Keeping route for net ins_11.out
+Keeping route for net _34_
+Keeping route for net _35_
+Keeping route for net _36_
+Finished routing net _37_
+Nets remaining: 59
+Finished routing net _38_
+Nets remaining: 58
+Keeping route for net _39_
+Finished routing net _40_
+Nets remaining: 56
+Finished routing net _41_
+Nets remaining: 55
+Finished routing net _42_
+Nets remaining: 54
+Keeping route for net _43_
+Keeping route for net _44_
+Keeping route for net _45_
+Keeping route for net _46_
+Finished routing net _47_
+Nets remaining: 49
+Keeping route for net ins_00.out
+Finished routing net out[0]
+Nets remaining: 47
+Finished routing net ins_01.out
+Nets remaining: 46
+Finished routing net out[1]
+Nets remaining: 45
+Keeping route for net ins_02.out
+Keeping route for net out[2]
+Finished routing net ins_03.out
+Nets remaining: 42
+Finished routing net out[3]
+Nets remaining: 41
+Finished routing net ins_04.out
+Nets remaining: 40
+Finished routing net out[4]
+Nets remaining: 39
+Finished routing net ins_05.out
+Nets remaining: 38
+Keeping route for net out[5]
+Finished routing net ins_06.out
+Nets remaining: 36
+Finished routing net out[6]
+Nets remaining: 35
+Keeping route for net ins_07.out
+Keeping route for net out[7]
+Keeping route for net _0_
+Finished routing net _1_
+Nets remaining: 31
+Keeping route for net _2_
+Keeping route for net _3_
+Keeping route for net _4_
+Keeping route for net _5_
+Finished routing net _6_
+Nets remaining: 26
+Finished routing net _7_
+Nets remaining: 25
+Finished routing net _8_
+Nets remaining: 24
+Finished routing net _9_
+Nets remaining: 23
+Keeping route for net _10_
+Finished routing net _11_
+Nets remaining: 21
+Keeping route for net _12_
+Finished routing net _13_
+Nets remaining: 19
+Finished routing net _14_
+Nets remaining: 18
+Finished routing net _15_
+Nets remaining: 17
+Finished routing net in[0]
+Nets remaining: 16
+Keeping route for net _16_
+Finished routing net _17_
+Nets remaining: 14
+Finished routing net in[1]
+Nets remaining: 13
+Keeping route for net _18_
+Finished routing net _19_
+Nets remaining: 11
+Finished routing net in[2]
+Nets remaining: 10
+Finished routing net _20_
+Nets remaining: 9
+Keeping route for net _21_
+Keeping route for net in[3]
+Keeping route for net _22_
+Keeping route for net _23_
+Finished routing net _24_
+Nets remaining: 4
+Finished routing net _25_
+Nets remaining: 3
+Finished routing net _26_
+Nets remaining: 2
+Keeping route for net _27_
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 276
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net ctrl[2]
+Nets remaining: 92
+Finished routing net ctrl[1]
+Nets remaining: 91
+Finished routing net ctrl[0]
+Nets remaining: 90
+Keeping route for net gnd
+Finished routing net ins_16.out
+Nets remaining: 88
+Keeping route for net in[7]
+Finished routing net ins_17.out
+Nets remaining: 86
+Finished routing net ins_12.out
+Nets remaining: 85
+Finished routing net ins_13.out
+Nets remaining: 84
+Finished routing net ins_00.in1
+Nets remaining: 83
+Finished routing net ins_14.out
+Nets remaining: 82
+Finished routing net ins_01.in1
+Nets remaining: 81
+Finished routing net ins_15.out
+Nets remaining: 80
+Finished routing net ins_02.in1
+Nets remaining: 79
+Finished routing net ins_03.in1
+Nets remaining: 78
+Finished routing net ins_04.in1
+Nets remaining: 77
+Finished routing net ins_05.in1
+Nets remaining: 76
+Finished routing net ins_06.in1
+Nets remaining: 75
+Finished routing net in[4]
+Nets remaining: 74
+Finished routing net in[5]
+Nets remaining: 73
+Finished routing net in[6]
+Nets remaining: 72
+Keeping route for net _28_
+Finished routing net _29_
+Nets remaining: 70
+Keeping route for net _30_
+Finished routing net _31_
+Nets remaining: 68
+Keeping route for net ins_10.out
+Keeping route for net _32_
+Keeping route for net _33_
+Keeping route for net ins_00.in0
+Keeping route for net ins_11.out
+Keeping route for net _34_
+Keeping route for net _35_
+Keeping route for net _36_
+Finished routing net _37_
+Nets remaining: 59
+Finished routing net _38_
+Nets remaining: 58
+Keeping route for net _39_
+Finished routing net _40_
+Nets remaining: 56
+Finished routing net _41_
+Nets remaining: 55
+Finished routing net _42_
+Nets remaining: 54
+Keeping route for net _43_
+Keeping route for net _44_
+Keeping route for net _45_
+Keeping route for net _46_
+Finished routing net _47_
+Nets remaining: 49
+Keeping route for net ins_00.out
+Finished routing net out[0]
+Nets remaining: 47
+Finished routing net ins_01.out
+Nets remaining: 46
+Keeping route for net out[1]
+Keeping route for net ins_02.out
+Keeping route for net out[2]
+Finished routing net ins_03.out
+Nets remaining: 42
+Finished routing net out[3]
+Nets remaining: 41
+Finished routing net ins_04.out
+Nets remaining: 40
+Finished routing net out[4]
+Nets remaining: 39
+Finished routing net ins_05.out
+Nets remaining: 38
+Keeping route for net out[5]
+Finished routing net ins_06.out
+Nets remaining: 36
+Finished routing net out[6]
+Nets remaining: 35
+Keeping route for net ins_07.out
+Keeping route for net out[7]
+Keeping route for net _0_
+Finished routing net _1_
+Nets remaining: 31
+Keeping route for net _2_
+Keeping route for net _3_
+Keeping route for net _4_
+Keeping route for net _5_
+Finished routing net _6_
+Nets remaining: 26
+Finished routing net _7_
+Nets remaining: 25
+Finished routing net _8_
+Nets remaining: 24
+Finished routing net _9_
+Nets remaining: 23
+Keeping route for net _10_
+Finished routing net _11_
+Nets remaining: 21
+Keeping route for net _12_
+Finished routing net _13_
+Nets remaining: 19
+Finished routing net _14_
+Nets remaining: 18
+Finished routing net _15_
+Nets remaining: 17
+Finished routing net in[0]
+Nets remaining: 16
+Keeping route for net _16_
+Finished routing net _17_
+Nets remaining: 14
+Finished routing net in[1]
+Nets remaining: 13
+Keeping route for net _18_
+Finished routing net _19_
+Nets remaining: 11
+Finished routing net in[2]
+Nets remaining: 10
+Finished routing net _20_
+Nets remaining: 9
+Keeping route for net _21_
+Keeping route for net in[3]
+Keeping route for net _22_
+Keeping route for net _23_
+Finished routing net _24_
+Nets remaining: 4
+Finished routing net _25_
+Nets remaining: 3
+Finished routing net _26_
+Nets remaining: 2
+Keeping route for net _27_
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 391
+No failed routes!
+----------------------------------------------
+*** Writing DEF file barrel_shifter_8bit_route.def
+emit_routes():  DEF file has 92 nets and 3 specialnets.
+but qrouter wants to write 93 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+*** Writing RC file barrel_shifter_8bit_route.rc
+Running annotate.tcl antenna.out /home/jayanth/Desktop/vsdflow/barrel/synthesis/barrel_shifter_8bit.rtlnopwr.v
+  /home/jayanth/Desktop/vsdflow/barrel/synthesis/barrel_shifter_8bit.spc /home/jayanth/Desktop/vsdflow/barrel/synthesis/barrel_shifter_8bit.rtlnopwr.anno.v
+  /home/jayanth/Desktop/vsdflow/barrel/synthesis/barrel_shifter_8bit.anno.spc  /usr/local/share/qflow/tech/osu035/osu035_stdcells.sp /home/jayanth/Desktop/vsdflow/barrel/synthesis/barrel_shifter_8bit_powerground
+Running annotate.tcl
+found cell FILL pinlist vdd gnd
+Done with annotate.tcl
+Router script ended on Sunday 20 November 2022 10:37:30 AM IST

@@ -1,0 +1,162 @@
+Qflow static timing analysis logfile created on Sunday 20 November 2022 10:38:06 AM IST
+Converting qrouter output to vesta delay format
+Running rc2dly -r barrel_shifter_8bit.rc -l /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib -d barrel_shifter_8bit.dly
+Converting qrouter output to SPEF delay format
+Running rc2dly -D : -r barrel_shifter_8bit.rc -l /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib -d barrel_shifter_8bit.spef
+Converting qrouter output to SDF delay format
+Running rc2dly -r barrel_shifter_8bit.rc -l /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib -d barrel_shifter_8bit.sdf
+Running vesta static timing analysis with back-annotated extracted wire delays
+vesta -c -d barrel_shifter_8bit.dly --long barrel_shifter_8bit.rtlnopwr.v /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu035_stdcells"
+End of library at line 6636
+Parsing module "barrel_shifter_8bit"
+Lib read /usr/local/share/qflow/tech/osu035/osu035_stdcells.lib:  Processed 6637 lines.
+Verilog netlist read:  Processed 115 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  8
+
+Top 8 maximum delay paths:
+Path input pin in[5] to output pin out[5] delay 776.1 ps
+      0.1 ps       in[5]:              ->   INVX1_23/A
+     65.6 ps        _26_:   INVX1_23/Y -> OAI21X1_24/B
+    193.0 ps  ins_15_out: OAI21X1_24/Y ->    INVX1_7/A
+    301.3 ps        _42_:    INVX1_7/Y ->  OAI21X1_8/B
+    436.3 ps  ins_04_in1:  OAI21X1_8/Y ->   INVX1_15/A
+    545.8 ps        _10_:   INVX1_15/Y -> OAI21X1_16/B
+    647.0 ps  ins_05_out: OAI21X1_16/Y ->    BUFX2_6/A
+    776.1 ps      out[5]:    BUFX2_6/Y -> out[5]
+
+Path input pin in[3] to output pin out[3] delay 775.992 ps
+      0.1 ps       in[3]:              ->   INVX1_21/A
+     65.3 ps        _22_:   INVX1_21/Y -> OAI21X1_22/B
+    192.9 ps  ins_13_out: OAI21X1_22/Y ->    INVX1_5/A
+    301.5 ps        _38_:    INVX1_5/Y ->  OAI21X1_6/B
+    435.9 ps  ins_02_in1:  OAI21X1_6/Y ->   INVX1_13/A
+    545.7 ps         _6_:   INVX1_13/Y -> OAI21X1_14/B
+    646.9 ps  ins_03_out: OAI21X1_14/Y ->    BUFX2_4/A
+    776.0 ps      out[3]:    BUFX2_4/Y -> out[3]
+
+Path input pin in[7] to output pin out[7] delay 775.655 ps
+      0.1 ps       in[7]:              ->    INVX1_1/A
+     65.2 ps        _30_:    INVX1_1/Y ->  OAI21X1_2/B
+    192.6 ps  ins_17_out:  OAI21X1_2/Y ->    INVX1_9/A
+    300.8 ps        _46_:    INVX1_9/Y -> OAI21X1_10/B
+    435.3 ps  ins_06_in1: OAI21X1_10/Y ->   INVX1_17/A
+    544.6 ps        _14_:   INVX1_17/Y -> OAI21X1_18/B
+    646.5 ps  ins_07_out: OAI21X1_18/Y ->    BUFX2_8/A
+    775.7 ps      out[7]:    BUFX2_8/Y -> out[7]
+
+Path input pin in[6] to output pin out[6] delay 774.967 ps
+      0.2 ps       in[6]:              ->   INVX1_24/A
+     65.2 ps        _28_:   INVX1_24/Y ->  OAI21X1_1/B
+    192.6 ps  ins_16_out:  OAI21X1_1/Y ->    INVX1_8/A
+    300.9 ps        _44_:    INVX1_8/Y ->  OAI21X1_9/B
+    435.4 ps  ins_05_in1:  OAI21X1_9/Y ->   INVX1_16/A
+    544.7 ps        _12_:   INVX1_16/Y -> OAI21X1_17/B
+    645.9 ps  ins_06_out: OAI21X1_17/Y ->    BUFX2_7/A
+    775.0 ps      out[6]:    BUFX2_7/Y -> out[6]
+
+Path input pin in[3] to output pin out[1] delay 774.231 ps
+      0.1 ps       in[3]:              ->   INVX1_21/A
+     65.3 ps        _22_:   INVX1_21/Y -> OAI21X1_22/B
+    192.9 ps  ins_13_out: OAI21X1_22/Y ->  NAND2X1_3/A
+    312.3 ps        _35_:  NAND2X1_3/Y ->  OAI21X1_4/C
+    436.4 ps  ins_00_in1:  OAI21X1_4/Y ->   INVX1_11/A
+    543.7 ps         _2_:   INVX1_11/Y -> OAI21X1_12/B
+    645.1 ps  ins_01_out: OAI21X1_12/Y ->    BUFX2_2/A
+    774.2 ps      out[1]:    BUFX2_2/Y -> out[1]
+
+Path input pin in[4] to output pin out[2] delay 773.743 ps
+      0.1 ps       in[4]:              ->   INVX1_22/A
+     65.2 ps        _24_:   INVX1_22/Y -> OAI21X1_23/B
+    192.3 ps  ins_14_out: OAI21X1_23/Y ->  NAND2X1_4/A
+    311.8 ps        _37_:  NAND2X1_4/Y ->  OAI21X1_5/C
+    436.5 ps  ins_01_in1:  OAI21X1_5/Y ->   INVX1_12/A
+    543.8 ps         _4_:   INVX1_12/Y -> OAI21X1_13/B
+    644.7 ps  ins_02_out: OAI21X1_13/Y ->    BUFX2_3/A
+    773.7 ps      out[2]:    BUFX2_3/Y -> out[2]
+
+Path input pin in[6] to output pin out[4] delay 772.586 ps
+      0.2 ps       in[6]:              ->   INVX1_24/A
+     65.2 ps        _28_:   INVX1_24/Y ->  OAI21X1_1/B
+    192.6 ps  ins_16_out:  OAI21X1_1/Y ->  NAND2X1_6/A
+    311.8 ps        _41_:  NAND2X1_6/Y ->  OAI21X1_7/C
+    435.6 ps  ins_03_in1:  OAI21X1_7/Y ->   INVX1_14/A
+    542.8 ps         _8_:   INVX1_14/Y -> OAI21X1_15/B
+    643.6 ps  ins_04_out: OAI21X1_15/Y ->    BUFX2_5/A
+    772.6 ps      out[4]:    BUFX2_5/Y -> out[4]
+
+Path input pin in[3] to output pin out[0] delay 768.024 ps
+      0.1 ps       in[3]:              ->   INVX1_21/A
+     65.3 ps        _22_:   INVX1_21/Y -> OAI21X1_22/B
+    192.9 ps  ins_13_out: OAI21X1_22/Y ->  NAND2X1_3/A
+    312.3 ps        _35_:  NAND2X1_3/Y ->  OAI21X1_4/C
+    436.4 ps  ins_00_in1:  OAI21X1_4/Y -> NAND2X1_10/A
+    554.7 ps         _1_: NAND2X1_10/Y -> OAI21X1_11/C
+    641.3 ps  ins_00_out: OAI21X1_11/Y ->    BUFX2_1/A
+    768.0 ps      out[0]:    BUFX2_1/Y -> out[0]
+
+-----------------------------------------
+
+Number of paths analyzed:  8
+
+Top 8 minimum delay paths:
+Path input pin ctrl[0] to output pin out[3] delay 193.738 ps
+      1.4 ps     ctrl[0]:              -> OAI21X1_14/A
+     85.3 ps  ins_03_out: OAI21X1_14/Y ->    BUFX2_4/A
+    193.7 ps      out[3]:    BUFX2_4/Y -> out[3]
+
+Path input pin ctrl[0] to output pin out[4] delay 193.738 ps
+      3.0 ps     ctrl[0]:              -> OAI21X1_15/A
+     85.3 ps  ins_04_out: OAI21X1_15/Y ->    BUFX2_5/A
+    193.7 ps      out[4]:    BUFX2_5/Y -> out[4]
+
+Path input pin ctrl[0] to output pin out[0] delay 193.769 ps
+      4.9 ps     ctrl[0]:              -> OAI21X1_11/A
+     85.3 ps  ins_00_out: OAI21X1_11/Y ->    BUFX2_1/A
+    193.8 ps      out[0]:    BUFX2_1/Y -> out[0]
+
+Path input pin ctrl[0] to output pin out[6] delay 193.797 ps
+      3.4 ps     ctrl[0]:              -> OAI21X1_17/A
+     85.4 ps  ins_06_out: OAI21X1_17/Y ->    BUFX2_7/A
+    193.8 ps      out[6]:    BUFX2_7/Y -> out[6]
+
+Path input pin ctrl[0] to output pin out[2] delay 193.809 ps
+      4.3 ps     ctrl[0]:              -> OAI21X1_13/A
+     85.3 ps  ins_02_out: OAI21X1_13/Y ->    BUFX2_3/A
+    193.8 ps      out[2]:    BUFX2_3/Y -> out[2]
+
+Path input pin ctrl[0] to output pin out[5] delay 193.821 ps
+      3.4 ps     ctrl[0]:              -> OAI21X1_16/A
+     85.4 ps  ins_05_out: OAI21X1_16/Y ->    BUFX2_6/A
+    193.8 ps      out[5]:    BUFX2_6/Y -> out[5]
+
+Path input pin ctrl[0] to output pin out[1] delay 194.364 ps
+      4.8 ps     ctrl[0]:              -> OAI21X1_12/A
+     85.8 ps  ins_01_out: OAI21X1_12/Y ->    BUFX2_2/A
+    194.4 ps      out[1]:    BUFX2_2/Y -> out[1]
+
+Path input pin ctrl[0] to output pin out[7] delay 194.458 ps
+      0.6 ps     ctrl[0]:              -> OAI21X1_18/A
+     86.0 ps  ins_07_out: OAI21X1_18/Y ->    BUFX2_8/A
+    194.5 ps      out[7]:    BUFX2_8/Y -> out[7]
+
+-----------------------------------------
+
